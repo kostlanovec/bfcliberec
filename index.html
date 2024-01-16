@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hlavní strana - Stránka BFC Liberec</title>
+    <meta name="description" content="Hlavní stránka největšího fightu clubu v Libereckém kraji! Učíme maui thai, kickbox, box, MMA a karate.">
+    <meta name="author" content="Lukáš Cyprián | Jan Sebastián Kostlán">
+    <meta name="keywords" content="MMA, Box, Kickbox, Muai Thai, K1, BFC, Liberecký kraj">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="icon" type="image/png" href="http://bfc-liberec.cz/Pictures/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="Pictures/BfcLogo.png" alt="BFC">
+        </a>
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="activee" href="index.html">HOME</a></li>
+        <li><a href="RozvrhTreninku.html">ROZPIS TRÉNINKŮ</a></li>
+        <li><a href="Treneri.html">TRENÉŘI</a></li>
+        <li><a href="RozvrhTreninku.html#pricelist">CENÍK</a></li>
+        <li><a href="Treneri.html#galerie">GALERIE</a></li>
+        <li><a href="index.html#kontakt">KONTAKT</a></li>
+        <li class="nav-icons"><a href="https://www.facebook.com/bfcliberec" class="fab fa-facebook" target="_blank"></a><a href="https://www.instagram.com/bfc_liberec/" class="fab fa-instagram" target="_blank"></a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <header class="heading">
+        <h1>Berka Fight Centrum</h1>
+        <p>BFC Liberec největší Fight club v Libereckém kraji!</p>
+        <div class="video-uvod">
+          <div>
+            <video autoplay loop muted class="video">
+              <source src="Videos/Bfc-Video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </header>
+
+    <div class="content">
+      <h2 class="h2">O nás</h2>
+      <div class="separator"></div>
+      <p>Vítejte v Gymu BFC Liberec – útočiště pro špičkový trénink bojových sportů na 350 m<sub>2</sub>! S 3 500 kg činek, 16 boxerskými pytly, TRX, GUN X, hrazdami a dalším vybavením. K1, Thai Box, Box, MMA – u nás posunete své limity. Nejde jen o trénink, ale o cestu k posílení těla a mysli. Přijďte a zažijte sílu, odhodlání a komunitu v Gymu BFC Liberec!</p>
+        <p>BFC Liberec se pyšní řadou kvalitních odchovanců, kteří dosáhli nemalých úspěchů v bojových sportech na české, evropské, ale i světové úrovni jsou jimi například: Jiří Vaňata Mistr Světa ve full contactu, Adam Kocourek Mistr Světa v low kicku, Martin Prýslubský Mistr Evropy v K1, Radim Kušnirak Mistr ČR v K1, Tomáš Penz profesionální zápasník MMA a a mnoho dalších.</p>
+    </div>
+      <div class="container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="Pictures/Gym/IMG_5811.JPG" alt="Obrázek gymu">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="Pictures/Gym/IMG_5804.JPG" alt="Obrázek gymu">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="Pictures/Gym/IMG_5806.JPG" alt="Obrázek gymu">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="Pictures/Gym/IMG_5816.JPG" alt="Obrázek gymu">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="Pictures/Gym/IMG_5808.JPG" alt="Obrázek gymu">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="Pictures/Gym/IMG_5822.JPG" alt="Obrázek gymu">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption">BFC Liberec gallery</p>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" alt="Obrázek gymu" src="Pictures/Gym/IMG_5811.JPG" style="width:100%" onclick="currentSlide(1)" alt="Velký sál">
+          </div>
+          <div class="column">
+            <img class="demo cursor" alt="Obrázek gymu" src="Pictures/Gym/IMG_5804.JPG" style="width:100%" onclick="currentSlide(2)" alt="MMA sál">
+          </div>
+          <div class="column">
+            <img class="demo cursor" alt="Obrázek gymu" src="Pictures/Gym/IMG_5806.JPG" style="width:100%" onclick="currentSlide(3)" alt="MMA sál">
+          </div>
+          <div class="column">
+            <img class="demo cursor" alt="Obrázek gymu" src="Pictures/Gym/IMG_5816.JPG" style="width:100%" onclick="currentSlide(4)" alt="Velký sál">
+          </div>
+          <div class="column">
+            <img class="demo cursor" alt="Obrázek gymu" src="Pictures/Gym/IMG_5808.JPG" style="width:100%" onclick="currentSlide(5)" alt="MMA sál">
+          </div>
+          <div class="column">
+            <img class="demo cursor" alt="Obrázek gymu" src="Pictures/Gym/IMG_5822.JPG" style="width:100%" onclick="currentSlide(6)" alt="Ring a velký sál">
+          </div>
+        </div>
+      </div>
+    </div>
+  <div>
+<h2 class="h2">Novinky</h2>
+  <div class="separator"></div>
+  <div class="articles">
+
+  <article class="article article--left">
+    <div class="article__h3">
+      <h3 class="h3">MBC International</h3>
+    </div>
+    <div class="article__picture">
+      <img src="Pictures/News/Gala.jpg" alt="News">
+    </div>
+    <div class="article__p">
+      <p>Tuto sobotu, 11.11.2023, se náš člen Edmond Zefi účástnil galaveřera boxu v Hradci Králové, kde byl jeho soupeř Lacikaa Fekete z Maďarska, kterého Edmond Zefi dokázal ukončit už v 1. kole, potvrit tak svoje kvality a získat tak pro sebe a náš tým vítězství. Galavečerem v Hradci Králové ale úspěchy BFC Liberec zdaleka nekončily!<br><br> Ve stejný den se v konala ACR Liga kickboxu, kde náš klub reprezentovali Adam Škoda, Tereza Jagerová, Petr Jisl, Martin karafiát a Michal Kysela. První tři jmenovaní nedali svým soupeřům šanci a ukořistili vítězství. Martin Karafiát s Michalem Kyselou nastoupili teprve ke svému prvnímu zápasu a na své soupeře bohužel nestačili, ale zato ukázali srdce a odvezli si hodnotné zkušenosti do svých dalších zápasů.<br><br> Tímto děkujeme celému týmu BFC Liberec za podporu a těšíme se na dalších turnajích!  </p>
+    </div>
+  </article>
+
+  <article class="article article--right">
+    <div class="article__h3">
+      <h3 class="h3">Nábory 2023
+    </div>
+    <div class="article__picture">
+      <img src="Pictures/News/Recruitment.jpg" alt="News">
+    </div>
+    <div class="article__p">
+      <p>V BFC Liberec otevíráme nové nábory na kickbox (pondělí, středa, pátek), box (úterý, čtvrtek) a MMA (úterý, čtvrtek). Naši trenéři jsou zkušení profesionálové, kteří vás provedou každým krokem. Kromě sportovní aktivity se zde seznámíte s novým okruhem lidí a poznáte nové přátele.<br><br> Přidejte se k nám a začněte svou cestu k fyzické kondici, sebedůvěře a novým dovednostem.<br><br> Pokud si na začátku nevěříte, máte radši menší množství lidí, ale rádi byste vyzkoušeli bojové sporty nebo prostě něco nového, BFC Liberec přesně pro Vás nabízí soukromé lekce, na kterých budete pouze vy a Vámi zvolený trenér</p>
+    </div>
+  </article>
+
+  <article class="article article--left">
+    <div class="article__h3">
+      <h3 class="h3">Tréninky karate</h3>
+    </div>
+    <div class="article__picture">
+      <img src="Pictures/News/karate-kids.png" alt="News">
+    </div>
+    <div class="article__p">
+      <p>Vstupte do světa karate plného vášně a vzrušení v klubu BFC Liberec! Nově zahajujeme lekce pro mládež a děti v pondělí, středu a pátek. Toto není jen o karate, je to o vytváření šampionů!<br>
+        <br>
+        Naše kurzy nabízejí nejenom technické dovednosti karate, ale také prostředí, kde se rozvíjí sebedůvěra a disciplína. Naši instruktoři jsou zkušení a odhodlaní vést vaše děti k úspěchu.<br>
+        <br>
+        Co ještě lepšího než naučit se umění sebeobrany? Soutěžit! V klubu BFC Liberec je karate zábavné a motivující. Máme plán na soutěže, které povzbudí děti a mládež k dosažení svého plného potenciálu.<br>
+        <br>
+        Přijďte se připojit k naší skvělé karate komunitě, kde se učíte, soutěžíte a roste vaše sebevědomí! Přihlaste se ještě dnes a připravte se na začátek vaší cesty karate plné dobrodružství a úspěchu!</p>
+    </div>
+  </article>
+
+  <div id="kontakt"></div>
+</div>
+</div>
+  <div class="location">
+    <div class="head">
+      <p>Kde nás najdete?</p>
+    </div> 
+    <div class="description">
+      <p class="nadpis">Adresa</p>
+      <p class="podnadpis">Berka Fight Centrum</p>
+      <p>Hanychovská 622,<br>
+        <span>460 07 Liberec,</span><br>
+        <span>Czech Republic</span>
+      </p>
+    </div>
+      <div class="kontakt">
+        <p class="nadpis">Kontakt</p>
+        <p class="podnadpis">GENERAL CONTACT</p>
+        <p>Simona Berková<br>
+        <span>Tel.: +420 774 620 208<br><br></span></p>
+        <p class="podnadpis">PR & SPONSORING CONTACT</p>
+        <p>Simona Berková<br>
+        <span>Tel.: +420 777 695 620</span></p>
+      </div>
+              <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.9915603545933!2d15.040342275576574!3d50.757190165231854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47093793a68a8c45%3A0x2c071965f25a9d01!2sBFC%20Liberec!5e0!3m2!1scs!2scz!4v1694598410558!5m2!1scs!2scz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      <div class="icons">
+        <a href="https://www.facebook.com/bfcliberec" class="fab fa-facebook" target="_blank" title="Facebook"></a>
+        <a href="https://www.instagram.com/bfc_liberec/" class="fab fa-instagram" target="_blank" title="Instagram"></a>
+        <a href="https://www.tiktok.com/@martinberka5?lang=cs-CZ" class="fab fa-tiktok" target="_blank" title="TikTok"></a>
+        <a href="mailto:bfcliberec@gmail.com" class="fas fa-envelope" target="_blank" title="Email"></a>
+        <a href="tel:+420774620208" class="fas fa-phone" target="_blank" title="Phone"></a>
+      </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="partners">
+    <h1>HLAVNÍ PARTNEŘI</h1>
+    <div class="sponzoring">
+      <div class="partners-1" aria-hidden="true"><a href="https://www.mlynperner.cz/" target="_blank"><img src="Pictures/Sponsors/Spon1.png" width="250px" height="80px" alt=""></a></div>
+      <div class="partners-1" aria-hidden="true"><a href="http://www.pckomponent.cz/" target="_blank"><img src="Pictures/Sponsors/Spon2.png" width="250px" height="80px" alt=""></a></div>
+      <div class="partners-1" aria-hidden="true"><a href="https://www.ziveprenosyzdarma.cz/?fbclid=IwAR3bvYWzF2HoAxkkEQKZZ-ItIysS1ih69mBZD9vCyrgTETe8ueP4eCWlYAw" target="_blank"><img src="Pictures/Sponsors/Spon3.png" width="250px" height="80px" alt=""></a></div>
+      <div class="partners-1" aria-hidden="true"><a href="https://www.liberec.cz/cz/obcan/" target="_blank"><img src="Pictures/Sponsors/Spon4.png" width="250px" height="80px" alt=""></a></div>
+      <div class="partners-1" aria-hidden="true"><a href="https://www.kraj-lbc.cz/" target="_blank"><img src="Pictures/Sponsors/Spon5.png" width="250px" height="80px" alt=""></a></div>
+    </div>
+  </div>
+  <div class="banner">All rights reserved by BFC Liberec © 2006-2023 | CREATED AND DESIGNED BY&nbsp;<strong>LUKÁŠ CYPRIÁN</strong></div>
+</footer>
+  </body>
+</html>

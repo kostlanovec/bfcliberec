@@ -1,0 +1,48 @@
+
+article{
+  display: grid;
+  gap: 1em;
+}
+
+.article__picture{
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
+}
+.article__picture > img{
+  border-radius: 1em;
+}
+
+.articles{
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+@media(min-width: 700px) {
+  .article{
+    gap: 1em;
+  }
+.article--left{
+  grid-template-areas: "h3 picture"
+                      " text picture";
+  grid-template-rows: 2em 1fr;
+}
+
+.article--right{
+  grid-template-areas: "picture h3"
+                      "picture text";
+  grid-template-rows: 2em 1fr;
+}
+
+.article__h3{
+  grid-area: h3;
+}
+
+.article__picture{
+  grid-area: picture;
+}
+
+.article__p{
+  grid-area: text;
+}
+}

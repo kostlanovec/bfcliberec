@@ -1,0 +1,162 @@
+:root {
+  --green-color: rgb(72, 5, 87);
+  --black-color: #001f03;
+  --dark-red-color: #880000;
+  --light-red-color: #df0000;
+  --dark-blue-color: #1a008e;
+  --light-blue-color: #2a00e5;
+  --orange-color: rgb(70, 99, 21);
+  --wtf-color: rgb(166, 72, 0);
+}
+td{
+  border: 1px solid black;
+}
+.price-list td{
+  border-right: none;
+  border-left: none;
+}
+
+.timetable {
+  display: grid;
+  grid-template-areas: ". week" "time content";
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 60px;
+  margin: auto;
+  height: 82vh;
+  margin-top: 30px;
+  color:white;
+  overflow-y: auto;
+  padding-bottom: 1em;
+}
+.content3 div{
+  border-radius: 10px;
+}
+
+.timetable .color-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease box-shadow, 0.2s ease transform;
+}
+.timetable .green {
+  background: var(--green-color);
+}
+
+.timetable .black {
+  background: var(--black-color);
+}
+
+.timetable .dark-red {
+  background-color: var(--dark-red-color);
+}
+
+.timetable .light-red {
+  background: var(--light-red-color);
+}
+
+.timetable .dark-blue {
+  background: var(--dark-blue-color);
+}
+
+.timetable .light-blue {
+  background: var(--light-blue-color);
+}
+
+.timetable .orange {
+  background: var(--orange-color);
+}
+
+.timetable .wtf-color {
+  background: var(--wtf-color);
+}
+
+.timetable .color-box:hover {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+
+.timetable .weekend{
+  background: #fbfbfc;
+  color: #87a1ad;
+}
+.timetable .week-names{
+  grid-area: week;
+  display: grid;
+  grid-template-columns: repeat(7, 120px);
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.timetable .week-names > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 1px 0 0 #eceff1;
+}
+.timetable .time-interval {
+  grid-area: time;
+  display: grid;
+  max-width: 120px;
+  grid-template-rows: repeat(7, 1fr);
+  font-size: 1em;
+}
+.timetable .time-interval > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 1px 0 0 #eceff1;
+}
+.timetable .content3{
+  grid-area: content;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.timetable .content3 > div {
+  box-shadow: inset 1px 0 0 #eceff1, inset 0 1px 0 0 #eceff1;
+  margin: auto;
+  justify-content: center;
+}
+
+.content3 a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.time-heading {
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 130px;
+}
+
+.time-interval, .week-names{
+  color: black;
+}
+
+.content3 a {
+  padding: 5px;
+}
+
+
+.cenik .tbody tr td:first-child {
+  width: 40%;
+  text-align: left;
+  padding:1em;
+  font-weight: 600;
+}
+
+.cenik .tbody tr td:not(:first-child) {
+  width: 30%;
+  text-align: left;
+}
